@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.coverage.line;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -6,13 +6,13 @@ import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
-public class MainControllerTest {
+public class LineCoverageTest {
 
     @InjectMocks
-    private MainController mainController;
+    private LineCoverage lineCoverage;
 
     @Test
-    public void 컨트롤러_테스트() {
-        mainController.foo();
+    public void 라인_테스트() {
+        lineCoverage.foo();
     }
 }
