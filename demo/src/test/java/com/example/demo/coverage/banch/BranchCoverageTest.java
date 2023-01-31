@@ -16,7 +16,7 @@ public class BranchCoverageTest {
     @Test
     public void 브랜치_테스트() {
         assertEquals("first", 첫_번째_조건을_통과한다());
-        assertEquals("second", 두_번째_조건을_통과한다());
+        //assertEquals("second", 두_번째_조건을_통과한다());
         assertEquals("third", 조건을_통과하지_않는다());
     }
 

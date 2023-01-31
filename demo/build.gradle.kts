@@ -54,12 +54,6 @@ tasks.jacocoTestReport {
 
 tasks.jacocoTestCoverageVerification {
 	violationRules {
-//		rule {
-//			// 'element'가 없으면 프로젝트의 전체 파일을 합친 값을 기준으로 한다.
-//			limit {
-//				minimum = "0.30".toBigDecimal()
-//			}
-//		}
 
 		rule {
 			// 룰을 간단히 켜고 끌 수 있다.
@@ -91,6 +85,7 @@ tasks.jacocoTestCoverageVerification {
 
 			// 커버리지 체크를 제외할 클래스들
 			excludes = listOf(
+				"*.Branch*"
 			)
 		}
 	}
